@@ -1,0 +1,28 @@
+{
+  "name": "@jochlain/babel-plugin-yaml",
+  "version": "1.0.0",
+  "description": "Babel plugin to transform YAML require to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JochLAin/translation.git"
+  },
+  "author": "Jocelyn Faihy <jocelyn@faihy.fr>",
+  "bugs": {
+    "url": "https://github.com/JochLAin/translation/issues"
+  },
+  "homepage": "https://github.com/JochLAin/translation#readme",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
